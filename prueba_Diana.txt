@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) throws Exception {
+        require
+            website.sendText("Your Name","name","user-submitted-name","John Doe");
+            website.sendText("Your Name","class","usp-input","John Doe");
+            website.sendText("Email Address","name","user-submitted-email","John@doe.com");
+            website.sendText("Email Address","class","usp-input","John@doe.com");
+            website.sendText("Product Title","name","user-submitted-title","Prisma - AI that turns your photos into artwork in seconds");
+            website.sendText("Product Title","class","usp-input","Prisma - AI that turns your photos into artwork in seconds");
+            website.sendText("Product URL","name","user-submitted-url[]","http://");
+            website.sendText("Product URL","class","usp-input","http://");
+            website.sendText("Add another Product URL","name","user-submitted-content","Describe your product or try an elevator pitch");
+            website.sendText("Add another Product URL","class","usp-textarea","Describe your product or try an elevator pitch");
+   //En caso ser para texto insertado en el input type=text, se puede colocar un getText("name|id")
+    }
+}
